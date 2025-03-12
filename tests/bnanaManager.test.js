@@ -89,4 +89,5 @@ describe('bananaManager', () => {
     expect(log[0].type).toBe('ADD');
     expect(log[1].type).toBe('REMOVE');
   });
+  
 });
